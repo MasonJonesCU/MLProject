@@ -10,7 +10,7 @@ There are two python files related to running the neural network, "startTraining
 A Full Example Runthrough:
 
 
-    I create a dataset.csv with datamaker, and I put it in a folder named "example" at the root of this directory. I will then go into "startTraining.py" and change the "path" variable on line 3 to equal "example" and then run startTraining.py. After its done, "model_full.pth" will appear in the "example" folder. I will create another dataset called validation.csv with datamaker again, then move that file to the "example" folder. I then go into the "startTesting.py" file and change the "path" variable on line 3 to equal "example" and then run it. It will then tell me the accuracy of the model.
+I create a dataset.csv with datamaker, and I put it in a folder named "example" at the root of this directory. I will then go into "startTraining.py" and change the "path" variable on line 3 to equal "example" and then run startTraining.py. After its done, "model_full.pth" will appear in the "example" folder. I will create another dataset called validation.csv with datamaker again, then move that file to the "example" folder. I then go into the "startTesting.py" file and change the "path" variable on line 3 to equal "example" and then run it. It will then tell me the accuracy of the model.
 
 
 # Datamaker:
